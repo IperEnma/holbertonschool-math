@@ -1,4 +1,5 @@
-#include "holbertoh.h"
+#include "holberton.h"
+#include <stdio.h>
 /**
  * display_complex_number - display complex number
  * @x: list
