@@ -12,4 +12,5 @@ typedef struct Complex
      double im;
 } complex;
 void display_complex_number(complex x);
+complex conjugate(complex c);
 #endif
