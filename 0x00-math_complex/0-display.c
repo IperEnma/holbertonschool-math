@@ -6,12 +6,12 @@
  */
 void display_complex_number(complex x)
 {
-    if (x.im != 0)
-    {
-        printf("%g+%gi\n", x.re, x.im);
-    }
-    else
-    {
-        printf("%g\n", x.re);
-    }
-}i
+	if (x.im != 0)
+	{
+		printf("%g+%gi\n", x.re, x.im);
+	}
+	else
+	{
+		printf("%g\n", x.re);
+	}
+}
