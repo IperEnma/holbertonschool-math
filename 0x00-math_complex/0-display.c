@@ -9,9 +9,13 @@ void display_complex_number(complex x)
 {
 	if (x.im != 0)
 	{
-		printf("%g + %gi\n", x.re, x.im);
 		if (x.im < 0)
+		{
+			x.im = x.im * -1;
 			printf("%g - %gi\n", x.re, x.im);
+		}
+		else
+			printf("%g + %gi\n", x.re, x.im);
 	}
 	else
 	{
